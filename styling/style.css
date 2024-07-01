@@ -89,6 +89,7 @@ main button {
 
 .all-stories {
     display: flex;
+    text-align: center;
 }
 
 .all-stories article {
