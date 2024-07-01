@@ -98,6 +98,10 @@ main button {
     margin: 10px;
 }
 
+.all-stories a {
+    text-decoration: none;
+}
+
 /* footer styling starts here */
 .footer{
     background-color: #f1e9f1;
