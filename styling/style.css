@@ -38,6 +38,14 @@ header nav a {
     margin: 0 10px;
 }
 
+header nav a:hover {
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #333;
+    cursor: pointer;
+}
+
 header nav i {
     color: palevioletred;
 }
