@@ -8,7 +8,7 @@ body {
 /* navigation bar styling */
 
 header {
-    background-color: #004481;
+    background-color: pink;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -33,13 +33,13 @@ header nav {
 }
 
 header nav a {
-    color: #fff;
+    color: purple;
     text-decoration: none;
     margin: 0 10px;
 }
 
 header nav i {
-    color: #fff;
+    color: palevioletred;
 }
 
 /* navigation bar styling ends here */
