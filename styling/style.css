@@ -72,7 +72,8 @@ main button {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;}
+    color: #f1e9f1;
+}
 
 .success-stories {
     background-color: pink;
