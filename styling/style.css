@@ -72,7 +72,8 @@ main button {
     padding: 10px 20px;
     border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;}
+    color: #f1e9f1;
+}
 
 .success-stories {
     background-color: pink;
@@ -86,7 +87,16 @@ main button {
     margin-bottom: 20px;
 }
 
+.all-stories {
+    display: flex;
+    text-align: center;
+}
 
+.all-stories article {
+    background-color: darkcyan;
+    padding: 10px;
+    margin: 10px;
+}
 
 /* footer styling starts here */
 .footer{
