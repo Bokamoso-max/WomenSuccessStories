@@ -65,9 +65,14 @@ main button {
     background-color: pink;
   }
 
-  main button:hover {
-    background-color: #f4f4f4;
-  }
+  main button:hover{
+    background-color: darkcyan;
+    color: pink;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;}
 
 .success-stories {
     background-color: pink;
