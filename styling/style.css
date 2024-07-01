@@ -24,8 +24,17 @@ header .logo img {
     margin-right: 10px;
 }
 
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
 header nav a {
     color: #fff;
     text-decoration: none;
-    margin-left: 20px;
+    margin: 0 10px;
+}
+
+header nav i {
+    color: #fff;
 }
