@@ -5,6 +5,8 @@ body {
     background-color: #f4f4f4;
 }
 
+/* navigation bar styling */
+
 header {
     background-color: #004481;
     color: #fff;
@@ -31,7 +33,6 @@ header nav {
 }
 
 header nav a {
-    flex: 1;
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
@@ -40,6 +41,9 @@ header nav a {
 header nav i {
     color: #fff;
 }
+
+/* navigation bar styling ends here */
+
 main {
     padding: 20px;
 }
