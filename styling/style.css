@@ -2,36 +2,50 @@ body {
     background-color: rgb(82, 201, 82);
 }
 
+main {
+    padding-top: 50px;
+}
+
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: rgb(35, 22, 128);
-}
-
-h1, ul {
-    list-style: none;
-    color: aliceblue;
     display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-
-}
-
- h1 
- {
-    margin-right: 73%;
-    padding-top: 1%;
- }
-
- ul {
-    margin-left: 20%;
- }
-
-.searchIcon {
-    color: rgb(130, 197, 211);
-    margin-left: 98%;
+    align-items: center;
+    padding: 1%;
+    z-index: 1;
 }
 
 img {
-    position: absolute;
     width: 8%;
     height: 8%;
+    margin-right: 20px;
+}
+
+h1 {
+    color: aliceblue;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-right: 30px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+.searchIcon {
+    color: rgb(130, 197, 211);
+    margin-left: 20px;
 }
