@@ -57,6 +57,18 @@ main {
     padding: 20px;
 }
 
+main button {
+    width: 12%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: pink;
+  }
+
+  main button:hover {
+    background-color: #f4f4f4;
+  }
+
 .success-stories {
     background-color: pink;
     padding: 20px;
@@ -68,6 +80,8 @@ main {
     padding-left: 60px;
     margin-bottom: 20px;
 }
+
+
 
 /* footer styling starts here */
 .footer{
