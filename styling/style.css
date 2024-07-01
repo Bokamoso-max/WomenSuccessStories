@@ -92,6 +92,10 @@ main button {
     text-align: center;
 }
 
+.story {
+    display: none;
+}
+
 .all-stories article {
     background-color: darkcyan;
     padding: 10px;
