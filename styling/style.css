@@ -130,16 +130,5 @@ main button {
     color: #010101;
 }
 
-.newsletter input{
-    padding: 5px;
-    border: 1px solid #2C021C;
-    margin-top: 5px;
-    border-radius: 3px;
-}
-
-.newsletter .button{
-    background-color: #c467a0;
-    border: none;
-}
 
 /* footer styling ends here */
