@@ -26,10 +26,12 @@ header .logo img {
 
 header nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 header nav a {
+    flex: 1;
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
