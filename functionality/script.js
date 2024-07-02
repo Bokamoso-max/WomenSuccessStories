@@ -6,6 +6,11 @@ const enterpreneurshipBtn = document.getElementById('enterpreneurship-btn');
 const womenInTechBtn = document.getElementById('womenInTech-btn');
 const lifestyleAndTravelBtn = document.getElementById('lifestyleAndTravel-btn');
 
+// search icon
+const searchIcon = document.getElementById('search-icon');
+const searchBar = document.getElementById('search-bar');
+//search icon
+
 const allStories = document.querySelectorAll('.story');
 
 allStoriesBtn.addEventListener('click', () => {
@@ -55,3 +60,8 @@ lifestyleAndTravelBtn.addEventListener('click', () => {
   });
   document.querySelector('.lifestyleAndTravel-story').style.display = 'block';
 });
+
+// search icon
+searchIcon.addEventListener('click', () => {
+    searchBar.style.display = searchBar.style.display === 'none' ? 'block' : 'none';
+  });
