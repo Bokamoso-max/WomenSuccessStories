@@ -13,7 +13,6 @@ const searchBar = document.getElementById('search-bar');
 
 const allStories = document.querySelectorAll('.story');
 
-
 function hideAllStories() {
     document.querySelector('.all-stories').style.display = 'none';
 }
