@@ -203,6 +203,17 @@ h1 {
     margin-top: 10px;
   }
 
+  btn{
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: darkcyan;
+    cursor: pointer;
+  }
+  .active,btn:hover{
+    background-color: darkcyan;
+    color:#000
+  }
 
 
   ul {
