@@ -95,7 +95,8 @@ main button {
     margin-bottom: 20px;
 }
 
-.all-stories {
+.all-stories,
+.allStories {
     display: flex;
     text-align: center;
 }
@@ -104,7 +105,8 @@ main button {
     display: none;
 }
 
-.all-stories article {
+.all-stories article,
+.allStories article {
     background-color: darkcyan;
     padding: 10px;
     margin: 10px;
