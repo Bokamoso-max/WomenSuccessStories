@@ -6,19 +6,23 @@ const enterpreneurshipBtn = document.getElementById('enterpreneurship-btn');
 const womenInTechBtn = document.getElementById('womenInTech-btn');
 const lifestyleAndTravelBtn = document.getElementById('lifestyleAndTravel-btn');
 
+// search icon
+const searchIcon = document.getElementById('search-icon');
+const searchBar = document.getElementById('search-bar');
+//search icon
+
 const allStories = document.querySelectorAll('.story');
 
-allStoriesBtn.addEventListener('click', () => {
-  allStories.forEach((story) => {
-    story.style.display = 'block';
-  });
-});
+function hideAllStories() {
+    document.querySelector('.all-stories').style.display = 'none';
+}
 
 beautyBtn.addEventListener('click', () => {
   allStories.forEach((story) => {
     story.style.display = 'none';
   });
   document.querySelector('.beauty-story').style.display = 'block';
+  hideAllStories();
 });
 
 motherhoodBtn.addEventListener('click', () => {
@@ -26,6 +30,7 @@ motherhoodBtn.addEventListener('click', () => {
     story.style.display = 'none';
   });
   document.querySelector('.motherhood-story').style.display = 'block';
+  hideAllStories();
 });
 
 mentalHealthBtn.addEventListener('click', () => {
@@ -33,6 +38,7 @@ mentalHealthBtn.addEventListener('click', () => {
     story.style.display = 'none';
   });
   document.querySelector('.mentalHealth-story').style.display = 'block';
+  hideAllStories();
 });
 
 enterpreneurshipBtn.addEventListener('click', () => {
@@ -40,6 +46,7 @@ enterpreneurshipBtn.addEventListener('click', () => {
     story.style.display = 'none';
   });
   document.querySelector('.enterpreneurship-story').style.display = 'block';
+  hideAllStories();
 });
 
 womenInTechBtn.addEventListener('click', () => {
@@ -47,6 +54,7 @@ womenInTechBtn.addEventListener('click', () => {
     story.style.display = 'none';
   });
   document.querySelector('.womenInTech-story').style.display = 'block';
+  hideAllStories();
 });
 
 lifestyleAndTravelBtn.addEventListener('click', () => {
@@ -54,4 +62,10 @@ lifestyleAndTravelBtn.addEventListener('click', () => {
     story.style.display = 'none';
   });
   document.querySelector('.lifestyleAndTravel-story').style.display = 'block';
+  hideAllStories();
 });
+
+// search icon
+searchIcon.addEventListener('click', () => {
+    searchBar.style.display = searchBar.style.display === 'none' ? 'block' : 'none';
+  });
