@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     background-color: #f4f4f4;
 }
 
@@ -60,9 +60,8 @@ header nav i {
 
 /* navigation bar styling ends here */
 
-
 main {
-    padding: 20px;
+    padding-top: 20px;
 }
 
 main button {
@@ -98,6 +97,7 @@ main button {
 .all-stories,
 .allStories {
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
 }
 
@@ -108,8 +108,10 @@ main button {
 .all-stories article,
 .allStories article {
     background-color: darkcyan;
-    padding: 10px;
-    margin: 10px;
+    max-width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
 }
 
 .all-stories .desc {
@@ -165,7 +167,7 @@ main button {
 /* footer styling ends here */
 
 
-/* beauty styling */
+/* articles styling */
   
 h1 {
     color: #333;
@@ -206,4 +208,30 @@ h1 {
     font-size: 16px;
     color: #666;
     margin-top: 10px;
+  }
+
+  btn{
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: darkcyan;
+    cursor: pointer;
+  }
+  .active,btn:hover{
+    background-color: darkcyan;
+    color:#000
+  }
+
+
+  ul {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  li {
+    font-style: italic;
+    color: #999;
   }
