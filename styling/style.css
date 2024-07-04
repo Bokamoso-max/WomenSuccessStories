@@ -114,7 +114,8 @@ main button {
     border-radius: 5px;
 }
 
-.all-stories .desc {
+.all-stories .desc,
+.allStories .desc {
     color: #000;
 }
 

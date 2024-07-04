@@ -69,3 +69,7 @@ lifestyleAndTravelBtn.addEventListener('click', () => {
 searchIcon.addEventListener('click', () => {
     searchBar.style.display = searchBar.style.display === 'none' ? 'block' : 'none';
   });
+
+  function goBack() {
+    window.location.href = "stories.html";
+}
